@@ -1,6 +1,7 @@
 body {
   padding: 0;
   text-align: center;
+  margin:0;
 }
 
 #game-intro {
@@ -23,6 +24,8 @@ body {
   background-image: url(../images/road.png);
   background-size: cover;
   animation: slide 5s linear infinite;
+  width: 600px;
+  height:800px;
 }
 
 @keyframes slide {
